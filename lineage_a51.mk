@@ -18,6 +18,7 @@
 TARGET_HAS_FOD := true
 # NFC
 TARGET_USES_NXP_NFC := true
+TARGET_HAS_NFC := true
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/a51/device.mk)
